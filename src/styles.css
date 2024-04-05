@@ -4,7 +4,58 @@
   font-style: normal;
 }
 
-h1 {
+body {
   font-family: "Reem Kufi Ink", sans-serif;
-  color: red;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url("../images/new-york.jpg");
+  background-repeat: no-repeat;
+  background-size: layer;
+  text-align: center;
+  padding: 200px 0;
+  width: 100%;
+}
+
+header h1 {
+  line-height: 1.5;
+  font-family: "Reem Kufi Ink", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 70px;
+  font-weight: 400px;
+}
+
+header h2 {
+  font-weight: 200px;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+footer {
+  text-align: center;
 }
