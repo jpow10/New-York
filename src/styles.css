@@ -51,6 +51,10 @@ header a {
   max-width: 100%;
 }
 
+section.secondary {
+  background: #fdeef7;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -64,15 +68,55 @@ header a {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.spring-btn {
+  background: #e7afd7;
+  color: black;
+}
+
+.summer-btn {
+  background: #00b1cf;
+  color: black;
+}
+
+.fall-btn {
+  background: #e15d04;
+  color: black;
+}
+.winter-btn {
+  background: #ecb606;
+  color: black;
+}
+
+h4 {
+  margin: 0;
+}
+
+.grid-4-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .grid-2-columns img {
   width: auto;
   height: 400px;
 }
 
+.secondary img {
+  width: auto;
+  height: 400px;
+}
+
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
 }
 
 main h2 {
@@ -85,6 +129,10 @@ main h2 {
 main h3 {
   line-height: 1.5;
   margin: 0;
+}
+
+.text-center {
+  text-align: center;
 }
 
 footer {
