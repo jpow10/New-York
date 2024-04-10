@@ -104,10 +104,6 @@ h4 {
   margin: 0;
 }
 
-.grid-4-columns {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 .grid-2-columns img {
   width: auto;
   height: 400px;
@@ -205,5 +201,16 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+}
+
+.grid-4-columns {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 12px;
+}
+
+@media (max-width: 1350px) {
+  .grid-4-columns {
+    grid-template-columns: 1fr 1fr;
   }
 }
